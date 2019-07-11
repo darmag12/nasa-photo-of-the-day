@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match snapshot 1`] = `
+<div
+  className="sc-bdVaJa cDwEON"
+>
+  <h1
+    className="sc-bwzfXH yAXUL"
+  >
+    Nasa Photo of The Day!🚀
+  </h1>
+  <div>
+    <strong>
+      Enter Date:
+    </strong>
+     
+    
+    <form>
+      <input
+        onChange={[Function]}
+        type="date"
+        value=""
+      />
+    </form>
+  </div>
+  <div>
+    <h2 />
+    <img
+      alt=""
+      height="400"
+      src={null}
+      width="70%"
+    />
+    <p />
+  </div>
+</div>
+`;

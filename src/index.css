@@ -1,13 +1,25 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.4;
+  font-size: 62.5%;
+  font-family: 'Concert One', cursive;
+  background-image: url('../src/img/overlay.png'), url('../src/img/astrology-astronomy-celestial-1114900.jpg');
+  background-repeat: repeat, no-repeat;
+	background-size: auto, 100% 100%;
+	background-attachment: fixed;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+p{
+  font-size: 1.5rem;
+  max-width: 90%;
+  text-align: justify;
+  margin: 5% ;
+  padding: 5px 0;
+  min-height: 200px;
+}
+
+h2{
+  font-size: 1.4rem;
+  font-weight: bold;
 }
